@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <fieldset name="student detail form" >
+    <legend>STUDENT DETAIL FORM</legend>
+    <table>
+        <form>
+            <tr>
+                <td><label for="name">NAME</label></td> 
+                <td><input type="text" pattern="[a-z]+"></td>
+            </tr>
+            <tr>
+                <td><label for="age">AGE</label></td>
+                <td><input type="number" pattern="[0-100]"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">GENDER</label></td>
+                <td><input type="radio" name="GENDER">MALE
+                    <input type="radio" name="GENDER">FEMALE</td>
+                
+            </tr>
+            <tr>
+                <td><label for="Email">EMAIL</label></td>
+                <td><input type="email" pattern="[a-z][A-Z][0-9]\@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="address">ADDRESS</label></td>
+                <td><textarea>Address</textarea></td>
+            </tr>
+            <tr>
+                <td><label for="course">COURSE</label></td>
+                <td><select id="course" style="padding: 0px 25px;">
+                    <option>--select--</option>
+                    <option>CSE</option>
+                    <option>CSD</option>
+                    <option>IT</option>
+                    <option>MECH</option>
+                    <option>MCT</option>
+                    <option>AI/DS</option>
+                </select></td>
+            </tr>
+            <tr>
+               <td><label for="qualification">QUALIFICATION</label></td> 
+               <td><input type="checkbox">10th
+                <input type="checkbox">12th
+                <input type="checkbox">UG
+                <input type="checkbox">PG
+                <input type="checkbox">PHD</td>
+            </tr>
+            <tr>
+                <td><label for="phone_no">phone no</label></td>
+                <td><input type="number"></td>
+
+            </tr>
+        </form>
+    </table>
+    <button>SUBMIT</button>
+    
+    
+   </fieldset>  
+</body>
+</html>

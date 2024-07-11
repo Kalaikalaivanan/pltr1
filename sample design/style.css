@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+legend{
+    font-size: 25px;
+}
+table{
+    padding: 40px 0px 30px 50px;
+}
+table tr td{
+    padding:15px 30px;
+    font-size: 18px;
+}
+button{
+    position: relative;
+    left:240px;
+    margin-bottom: 50px;
+}
+form{
+    
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1550");
+
+}
+header{
+    padding:25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    text-align: center;
+    color: black;
+    padding:20px 0px;
+    position: relative;
+    left:540px;
+    right:300px;
+}
+header button{
+    padding:8px 16px;
+    position:relative;
+    border-radius: 100px;
+    font-size: 15px;
+    margin: 20px 0px;
+    right:10px;
+    cursor:pointer;
+}
+nav{
+   margin: 0px;
+ 
+}
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding:10px 30px;
+    color: black;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+}
+nav ul li{
+    padding:10px 25px;
+    font-size: 18px;
+
+}
+section{
+    width:60%;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+    left:330px;
+
+}
+section article{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    padding:50px 50px;
+}
+section h1{
+    position: relative;
+    left:350px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button2{
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 10px 20px;
+    color: black;
+    font-size: 15px;
+    background: white;
+}
+.buttons button:hover{
+    background: white;
+    color: #45B39D;
+    border: 1px solid white;
+}
+.heading{
+    text-align:center;
+    position:relative;
+    right:5px;
+    margin-top: 100px;
+}
+.form{
+    position:relative;
+    width:450px;
+    padding: 50px 100px;
+    justify-content: center;
+    left:450px;
+
+}.form td{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.form td input{
+    padding:8px 20px;
+    font-size: 20px;
+}
+.last button:hover{
+    background-color: black;
+    color:bisque;
+    margin-top: 30px;
+    padding:5px 15px;
+    position:absolute;
+    border-radius:50px;
+    
+}
+.last{
+    padding:10px 20px;
+    margin-left:180px;
+    font-size:15px;
+}
+footer{
+   margin-top:100px;
+   padding:0px 50px;
+   font-size: 20px;
+   text-align: center;
+}

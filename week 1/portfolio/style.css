@@ -1,0 +1,83 @@
+
+header{
+    display:flex;
+    background-color: #af9483;
+    justify-content: space-between;
+    font-family: monospace 'Courier New', Courier, monospace;
+  
+}
+header nav ul{
+    display: flex;   
+}
+header nav ul li{
+    list-style:none;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: black;
+
+}
+section{
+    background-image: url("https://wallpaperaccess.com/full/3239480.jpg");
+    width:100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container h1:hover{
+    color:black
+}
+.container2{
+    display:flex;
+    margin: 80px 200px;
+}
+.container2 img{
+    width:650px;
+    height:550px;
+}
+.content{
+    padding:0px 50px;
+}
+.content p{
+    font-size:22px;
+}
+.container3{
+    display: flex;
+    gap:30px;
+    
+}
+.textbox1{
+    width:40%;
+    background-color: #e3dbd5;
+    margin-left:10%;
+    padding-left: 10%;
+}
+.textbox2{
+    width:40%;
+    background-color: #e3dbd5;
+    margin-right:10%;
+    padding-left: 10%;
+}
+.container3 ul li{
+    font-size: 20px;
+}
+.container4{
+    position:relative;
+}
+.container4-img{
+
+}
+.container4-img img{
+    position: absolute;
+    top:0;
+    width:600px;
+    height:500px;
+    
+}
