@@ -8,22 +8,27 @@
 </head>
 <body>
     <div class="container">
-        <table>
+        <div class="title">
+            <h2>Welcome to Adi-online Shopping</h3>
+        </div>
+        <form onsubmit="false">
+            
+        <table border="1px">
             <tr>
                 <td><label for="name">Customer name</label></td>
-                <td><input type="text" id="name"></td>
+                <td><input type="text" id="name" placeholder="enter customer name"></td>
             </tr>
             <tr>
                 <td><label for="mobile number">Mobile Number</label></td>
-                <td><input type="number" id="mobile number"></td>
+                <td><input type="number" id="mobile number" placeholder="enter mobile Number"></td>
             </tr>
             <tr>
                 <td><label for="email">Email Id</label></td>
-                <td><input type="email" id="email"></td>
+                <td><input type="email" id="email" placeholder="enter the mail id"></td>
             </tr>
             <tr>
                 <td><label for="billingaddress">Billing address</label></td>
-                <td><textarea id="billingaddress"></textarea></td>
+                <td><textarea id="billingaddress" placeholder="your Address "></textarea></td>
             </tr>
             <tr>
                 <td><label for="chooseproduct">Choose Product</label></td>
@@ -36,7 +41,7 @@
             </tr>
             <tr>
                 <td><label for="quantity">Enter Quantity</label></td>
-                <td><input type="number" id="quantity"></td>
+                <td><input type="number" id="quantity" placeholder="quantity"></td>
             </tr>
             <tr>
                 <td><label for="payment mode">Payment Mode</label></td>
@@ -46,10 +51,6 @@
                     <option id="Debit" value="2">Debit Card</option>
                     <option id="UPI" value="3">UPI Transfer</option>
                 </select></td>
-            </tr>
-            <tr>
-                <td><label for="bag total">Bag Total</label></td>
-                <td><input type="number" id="bag total"></td>
             </tr>
             <tr>
                 <td><label for="bag total">Bag Total</label></td>
@@ -66,12 +67,19 @@
                     <input type="radio" name="delivery options" id="delivery">Standard
                 </td>
             </tr>
-            <tr>
-                <td><input type="checkbox"> I agree the Terms & Conditions</td>
-                
+            <tr >
+                <td colspan="2" align="center"><input type="checkbox"> I agree the Terms & Conditions</td>
             </tr>
-                
+            <tr>
+                <td><button>clear</button></td>
+                <td><button type="submit">chk.Amount Payable</button></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h5 id="result"></h5>
+                </td>
 
+            </tr>
         </table>
  
        
